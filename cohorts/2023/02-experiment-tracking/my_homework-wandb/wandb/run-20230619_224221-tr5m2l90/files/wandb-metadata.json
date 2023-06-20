@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-06-20T02:42:22.642464",
+    "startedAt": "2023-06-20T02:42:21.734443",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "my_proj",
+        "--wandb_entity",
+        "gorcework",
+        "--data_artifact",
+        "gorcework/my_proj/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "C:\\zdev_ds\\mine\\mlops-zoomcamp\\cohorts\\2023\\02-experiment-tracking\\homework-wandb\\sweep.py",
+    "codePath": "cohorts\\2023\\02-experiment-tracking\\homework-wandb\\sweep.py",
+    "git": {
+        "remote": "git@github.com:gabrielorce/mlops-zoomcamp.git",
+        "commit": "84cc5417b71236448a3fa3358f86e97d4f9e9e64"
+    },
+    "email": "63826702+gabrielorce@users.noreply.github.com",
+    "root": "C:/zdev_ds/mine/mlops-zoomcamp",
+    "host": "PowerGO",
+    "username": "Bjorn",
+    "executable": "C:\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2501.0,
+        "min": 0.0,
+        "max": 2501.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2501.0,
+            "min": 0.0,
+            "max": 2501.0
+        }
+    ],
+    "disk": {
+        "total": 907.8710899353027,
+        "used": 746.7766151428223
+    },
+    "memory": {
+        "total": 15.933616638183594
+    }
+}

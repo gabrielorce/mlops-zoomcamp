@@ -1,0 +1,16 @@
+
+wandb:   4 of 4 files downloaded.
+Traceback (most recent call last):
+  File "C:\zdev_ds\mine\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\train.py", line 67, in <module>
+    run_train()
+  File "C:\Python310\lib\site-packages\click\core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\click\core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "C:\Python310\lib\site-packages\click\core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Python310\lib\site-packages\click\core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\zdev_ds\mine\mlops-zoomcamp\cohorts\2023\02-experiment-tracking\homework-wandb\train.py", line 64, in run_train
+    run.log_artifact(artifact)
+NameError: name 'run' is not defined
